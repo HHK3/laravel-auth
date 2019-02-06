@@ -1,0 +1,25 @@
+.sec5 {
+    text-align: center;
+}
+
+.gallery {
+    width: 80%;
+    border-radius: 20px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.pagination {
+    display: inline-flex;
+}
+
+@media screen and (max-width: 500px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}
